@@ -1,0 +1,64 @@
+body {
+    background: url(https://watermark.lovepik.com/photo/20211209/large/lovepik-vegetable-food-background-material-picture_501697070.jpg), rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body div {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+img {
+    display: block;
+    height: 250px;
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.home {
+    display: block;
+    font-size: 18px;
+    margin: 5px -3px;
+    color: black;
+    width:max-content;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.home:hover {
+    color: black;
+    background-color: lightblue;
+}
+
+.title {
+    display: block;
+    text-align: center;
+}
+
+.list {
+    font-size: 18px;
+    list-style-type: square;
+    margin: 20px;
+}
+
+.list a {
+    color: black;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+#home-title {
+    margin: 50px;
+}
